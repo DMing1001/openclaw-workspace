@@ -35,6 +35,23 @@
 4. Vercel 自动部署到 citeglow.com/water-teaching/
 5. **两个仓库必须保持一致**，water-teaching 是源仓库，Citation-tracker/water-teaching/ 是部署目录
 
+### 2.5 Citation-tracker 期刊投稿指南（持续更新）
+- **位置**: Citation-tracker/journals/ 目录
+- **内容**: 各期刊独立 HTML 页面（如 agricultural-water-management.html、catena.html 等）
+- **共享资源**: feedback.css、feedback.js 等
+- **更新方式**: 直接在 Citation-tracker 仓库操作，push 即部署到 citeglow.com/journals/
+
+---
+
+## 🗣️ 对话速查（用户怎么说，我怎么做）
+
+| 用户说 | 我做 |
+|---|---|
+| "water-teaching 更新好了，同步到 citeglow" | 从 DMing1001/water-teaching 拉取 → 放入 Citation-tracker/water-teaching/ → 部署 |
+| "加一个期刊 xxx 的投稿指南" | 在 Citation-tracker/journals/ 新增 HTML 页面 |
+| "改一下 xxx 期刊的投稿指南" | 修改 Citation-tracker/journals/xxx.html |
+| Citation-tracker 主站（index.html）| 一般不动，已经够用 |
+
 ### 3. sci-tracker — SCI 投稿追踪面板
 - **仓库**: DMing1001/sci-tracker
 - **功能**: 一站式管理多篇 SCI 论文投稿进度
