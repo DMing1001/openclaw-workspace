@@ -1,0 +1,10 @@
+# Exclude cloned repos
+Citation-tracker/
+water-teaching-repo/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temp files
+*.tmp
